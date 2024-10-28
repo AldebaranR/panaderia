@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.modal-body {
+    background-color: #ffffff;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
